@@ -1,0 +1,31 @@
+# Compiled Python code
+*.pyc
+
+# Autosaves from gedit.
+*~
+
+# SQLite files.
+*.sqlite
+
+# PyCharm project folder.
+.idea
+
+# Built extension files.
+build/
+_build/
+_static/
+_templates/
+*.so
+*.egg-info
+
+# IPython notebook
+.ipynb_checkpoints
+.ipynb
+
+# Exported graphs
+*.graphml
+
+# Vagrant box information.
+.vagrant
+
+*.pdf
