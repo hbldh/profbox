@@ -25,7 +25,7 @@ except ImportError:
     import profile as profile_module
 
 
-def do_cprofile(func):
+def do_profile(func):
     """Profiling decorator that can be used for simple
     bottleneck detecting in code.
 
@@ -34,7 +34,7 @@ def do_cprofile(func):
         In [1]: import profbox.cprof as cprof
 
         In [2]:
-        @cprof.do_cprofile
+        @cprof.do_profile
         def expensive_function(n):
             def fib(n):
                 if n < 2:
