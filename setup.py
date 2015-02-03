@@ -37,7 +37,6 @@ setup(
         'Operating System :: POSIX :: Linux',
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
-        'Intended Audience :: Financial and Insurance Industry',
         'Topic :: Software Development :: Testing',
         'Topic :: Utilities',
         'License :: OSI Approved :: GNU General Public License v2 (GPLv2)',
